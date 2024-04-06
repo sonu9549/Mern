@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // database connection with mongodb
-mongoose.connect("mongodb+srv://sonumehra:rgYvb6Qxp7MaASDJ@atlascluster.k6ipt5x.mongodb.net/e-commerce").then(() =>{
+mongoose.connect("mongodb+srv://sonumehra:<enter password>@atlascluster.k6ipt5x.mongodb.net/e-commerce").then(() =>{
     console.log("Connected to Mongodb");
 }).catch((err) =>{
     console.error("Failed to connect to mongodb", err);
